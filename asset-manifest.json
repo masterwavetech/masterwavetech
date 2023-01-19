@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/masterwavetech/static/css/main.dd7d3c66.css",
-    "main.js": "/masterwavetech/static/js/main.5aa61086.js",
+    "main.js": "/masterwavetech/static/js/main.db827429.js",
     "static/media/remixicon.svg?t=1590207869815": "/masterwavetech/static/media/remixicon.9cedd2150922ead84869.svg",
     "static/media/contact-bg.jpg": "/masterwavetech/static/media/contact-bg.f0eb0d062f3fc56a5c9a.jpg",
     "static/media/banner-bg.jpg": "/masterwavetech/static/media/banner-bg.7833548fd0662421d3b0.jpg",
@@ -23,10 +23,10 @@
     "static/media/slick.woff": "/masterwavetech/static/media/slick.295183786cd8a1389865.woff",
     "index.html": "/masterwavetech/index.html",
     "main.dd7d3c66.css.map": "/masterwavetech/static/css/main.dd7d3c66.css.map",
-    "main.5aa61086.js.map": "/masterwavetech/static/js/main.5aa61086.js.map"
+    "main.db827429.js.map": "/masterwavetech/static/js/main.db827429.js.map"
   },
   "entrypoints": [
     "static/css/main.dd7d3c66.css",
-    "static/js/main.5aa61086.js"
+    "static/js/main.db827429.js"
   ]
 }
