@@ -1,0 +1,32 @@
+{
+  "files": {
+    "main.css": "/masterwavetech/static/css/main.dd7d3c66.css",
+    "main.js": "/masterwavetech/static/js/main.5aa61086.js",
+    "static/media/remixicon.svg?t=1590207869815": "/masterwavetech/static/media/remixicon.9cedd2150922ead84869.svg",
+    "static/media/contact-bg.jpg": "/masterwavetech/static/media/contact-bg.f0eb0d062f3fc56a5c9a.jpg",
+    "static/media/banner-bg.jpg": "/masterwavetech/static/media/banner-bg.7833548fd0662421d3b0.jpg",
+    "static/media/remixicon.eot?t=1590207869815": "/masterwavetech/static/media/remixicon.5cb99e6cba5a4619063f.eot",
+    "static/media/remixicon.ttf?t=1590207869815": "/masterwavetech/static/media/remixicon.f2616f597cf98f38d234.ttf",
+    "static/media/slider-1.jpg": "/masterwavetech/static/media/slider-1.4efc9b7f2e44bb9e6ab0.jpg",
+    "static/media/slider-2.jpg": "/masterwavetech/static/media/slider-2.d4814bab59c022359dae.jpg",
+    "static/media/masterwave_logo.png": "/masterwavetech/static/media/masterwave_logo.6d74b372c956655c2e61.png",
+    "static/media/footer-logo.png": "/masterwavetech/static/media/footer-logo.19e96ed05b5ad5d87f73.png",
+    "static/media/remixicon.woff?t=1590207869815": "/masterwavetech/static/media/remixicon.8d09fa11700ed63cf96e.woff",
+    "static/media/remixicon.woff2?t=1590207869815": "/masterwavetech/static/media/remixicon.90668f6f9b3c2c18a090.woff2",
+    "static/media/about.jpg": "/masterwavetech/static/media/about.59232e678e9a62195600.jpg",
+    "static/media/optimization.png": "/masterwavetech/static/media/optimization.4a89106681ff6f098890.png",
+    "static/media/web-development.png": "/masterwavetech/static/media/web-development.6e707eb5f53567feefc4.png",
+    "static/media/marketing.png": "/masterwavetech/static/media/marketing.abd8ae894038ca667513.png",
+    "static/media/slick.svg": "/masterwavetech/static/media/slick.2630a3e3eab21c607e21.svg",
+    "static/media/slick.eot": "/masterwavetech/static/media/slick.a4e97f5a2a64f0ab1323.eot",
+    "static/media/slick.ttf": "/masterwavetech/static/media/slick.c94f7671dcc99dce43e2.ttf",
+    "static/media/slick.woff": "/masterwavetech/static/media/slick.295183786cd8a1389865.woff",
+    "index.html": "/masterwavetech/index.html",
+    "main.dd7d3c66.css.map": "/masterwavetech/static/css/main.dd7d3c66.css.map",
+    "main.5aa61086.js.map": "/masterwavetech/static/js/main.5aa61086.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.dd7d3c66.css",
+    "static/js/main.5aa61086.js"
+  ]
+}
