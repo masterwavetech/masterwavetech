@@ -1,7 +1,7 @@
 import React from "react";
 
 import "./App.css";
-import { Switch, Route } from "react-router-dom";
+import { Routes, Route } from "react-router-dom";
 import { Header, Footer, GoToTop } from "./components";
 import {
   Homepage,
@@ -16,14 +16,14 @@ function App() {
   return (
     <>
       <Header />
-      <Switch>
-        <Route path="/" element={<Homepage />} />
-        <Route path="/about" element={<Aboutpage />} />
-        <Route path="/contact" element={<Contactpage />} />
-        <Route path="/project" element={<Projectpage />} />
-        <Route path="/blog" element={<Blogpage />} />
-        <Route path="/services" element={<Servicepage />} />
-      </Switch>
+      <Routes>
+        <Route path="/masterwavetech" element={<Homepage />} />
+        <Route path="/masterwavetech/about" element={<Aboutpage />} />
+        <Route path="/masterwavetech/contact" element={<Contactpage />} />
+        <Route path="/masterwavetech/project" element={<Projectpage />} />
+        <Route path="/masterwavetech/blog" element={<Blogpage />} />
+        <Route path="/masterwavetech/services" element={<Servicepage />} />
+      </Routes>
       <Footer />
       <GoToTop />
     </>
