@@ -1,8 +1,7 @@
 import React from "react";
 
 import "./App.css";
-import { createBrowserRouter, RouterProvider, Outlet } from "react-router-dom";
-import ErrorPage from "./components/Errorpage/Errorpage";
+import { Routes, Route } from "react-router-dom";
 import { Header, Footer, GoToTop } from "./components";
 import {
   Homepage,
@@ -13,53 +12,22 @@ import {
   Servicepage,
 } from "./pages";
 
-const Layout = () => {
+function App() {
   return (
     <>
       <Header />
-      <Outlet />
+      <Routes>
+        <Route path="/" element={<Homepage />} />
+        <Route path="/about" element={<Aboutpage />} />
+        <Route path="/contact" element={<Contactpage />} />
+        <Route path="/project" element={<Projectpage />} />
+        <Route path="/blog" element={<Blogpage />} />
+        <Route path="/services" element={<Servicepage />} />
+      </Routes>
       <Footer />
       <GoToTop />
     </>
   );
-};
-
-const router = createBrowserRouter([
-  {
-    path: "/",
-    element: <Layout />,
-    errorElement: <ErrorPage />,
-    children: [
-      {
-        path: "/",
-        element: <Homepage />,
-      },
-      {
-        path: "/about",
-        element: <Aboutpage />,
-      },
-      {
-        path: "/blog",
-        element: <Blogpage />,
-      },
-      {
-        path: "/contact",
-        element: <Contactpage />,
-      },
-      {
-        path: "/project",
-        element: <Projectpage />,
-      },
-      {
-        path: "/services",
-        element: <Servicepage />,
-      },
-    ],
-  },
-]);
-
-function App() {
-  return <RouterProvider router={router} />;
 }
 
 export default App;
