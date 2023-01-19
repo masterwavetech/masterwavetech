@@ -4,11 +4,11 @@ import "remixicon/fonts/remixicon.css";
 import "bootstrap/dist/css/bootstrap.css";
 import "aos/dist/aos.css";
 import App from "./App";
-import { BrowserRouter } from "react-router-dom";
+import { HashRouter } from "react-router-dom";
 
 const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(
-  <BrowserRouter>
+  <HashRouter basename="/">
     <App />
-  </BrowserRouter>
+  </HashRouter>
 );
