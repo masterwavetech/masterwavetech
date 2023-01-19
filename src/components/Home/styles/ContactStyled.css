@@ -1,0 +1,61 @@
+.contact__area {
+  position: relative;
+  z-index: 1;
+  background-image: url(../../../Images/banner-bg.jpg);
+  background-position: center center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  text-align: center;
+  padding: 90px 0;
+}
+
+.contact__area::before {
+  content: "";
+  position: absolute;
+  z-index: -1;
+  left: 0;
+  top: 0;
+  height: 100%;
+  width: 100%;
+  background-color: #03030c;
+  opacity: 0.6;
+}
+
+.contact__area .contact-content {
+  position: relative;
+  text-align: center;
+}
+
+.contact__area .contact-content h4 {
+  font-size: 16px;
+  font-weight: 700;
+  color: #0aca0a;
+  letter-spacing: 0.5px;
+  text-transform: uppercase;
+}
+
+.contact__area .contact-content h2 {
+  font-size: 38px;
+  color: #fff;
+  margin: 0;
+  font-weight: 700;
+}
+
+.contact__area .contact-content p {
+  color: #fff;
+  font-size: 18px;
+  margin: 20px 0 0 0;
+}
+
+.contact__area .contact-content .contact_btn {
+  margin-top: 20px;
+}
+
+@media only screen and (max-width: 768px) {
+  .contact__area .contact-content h2 {
+    font-size: 30px;
+  }
+  .contact__area .contact-content p {
+    font-size: 15px;
+  }
+}

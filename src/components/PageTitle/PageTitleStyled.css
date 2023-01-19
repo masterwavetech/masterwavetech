@@ -1,0 +1,80 @@
+.page_title_wrapper {
+  position: relative;
+  z-index: 1;
+  background-image: url(../../Images/contact-bg.jpg);
+  background-position: center center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 500px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.page_title_wrapper::before {
+  content: "";
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  background-color: #030821;
+  left: 0;
+  top: 0;
+  opacity: 0.5;
+  z-index: -1;
+}
+
+.page_title-content {
+  padding: 20px 0;
+  text-align: center;
+}
+
+.page-title-content h2 {
+  margin-bottom: 0;
+  color: #ffffff;
+  font-size: 43px;
+  text-align: center;
+  font-weight: 700;
+  text-transform: capitalize;
+}
+
+.page-title-content ul {
+  list-style: none;
+  margin-top: 15px;
+  text-align: center;
+}
+
+.page-title-content li {
+  color: #ffffff;
+  display: inline-block;
+  position: relative;
+  font-weight: 400;
+  font-size: 17px;
+  margin: 10px;
+  position: relative;
+  text-transform: capitalize;
+}
+
+.page-title-content li a {
+  color: #ffffff;
+  display: inline-block;
+  position: relative;
+  font-weight: 400;
+  font-size: 17px;
+  position: relative;
+}
+
+.page-title-content li a::before {
+  content: "";
+  position: absolute;
+  right: -15px;
+  top: 11px;
+  width: 6px;
+  height: 6px;
+  border-radius: 50%;
+  background-color: #7b68ee;
+}
+
+.page-title-content li a:hover {
+  color: #7b68ee;
+  text-decoration: underline;
+}

@@ -1,0 +1,107 @@
+.mobile_nav_wrapper {
+  background-color: #fff;
+  box-shadow: 0 0 5px rgb(0 0 0 / 30%);
+  width: 300px;
+  height: 100%;
+  position: fixed;
+  left: 0;
+  top: 0;
+  z-index: 9999;
+  transition: all 0.3s ease-in-out;
+}
+
+.mobile_nav_wrapper .close_btn {
+  background-color: #eee;
+  box-shadow: 0 0 5px rgb(0 0 0 / 50%);
+  width: 50px;
+  height: 50px;
+  color: #1c1c23;
+  position: absolute;
+  top: 15px;
+  right: -55px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+}
+
+.mobile_nav_wrapper .close_btn i {
+  font-size: 28px;
+}
+
+.mobile_nav_wrapper .mobile_navlink {
+  height: calc(100% - 40px);
+  margin: 0;
+  padding: 0 0 10px 0;
+  overflow: auto;
+}
+
+.mobile_nav_wrapper .mobile_navlink li {
+  border-top: 1px solid #eee;
+  position: relative;
+  list-style: none;
+}
+
+.mobile_nav_wrapper .mobile_navlink li a {
+  min-height: 50px;
+  margin: 0;
+  padding: 5px 0 5px 15px;
+  font-size: 14px;
+  font-weight: 500;
+  color: #000;
+  text-decoration: none;
+  letter-spacing: 0.05em;
+  text-transform: capitalize;
+  position: relative;
+  display: flex;
+  align-items: center;
+  opacity: 1;
+}
+
+.mobile_nav_wrapper .mobile_navlink li .nav__active {
+  color: #0bb90b;
+  font-weight: 600;
+}
+
+.mobile_nav_wrapper .invoice_btn {
+  width: 100%;
+  margin: 10px 0;
+  padding: 0 15px;
+}
+.mobile_nav_wrapper .invoice_btn .default-btn {
+  width: 100%;
+  font-size: 16px;
+}
+
+.mobile_nav_wrapper .social_icon {
+  padding: 15px;
+}
+.mobile_nav_wrapper .social_icon h3 {
+  font-size: 16px;
+  font-weight: 500;
+  text-align: left;
+  text-transform: capitalize;
+}
+
+.mobile_nav_wrapper .social_icon .social-icon {
+  margin-top: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+}
+
+.mobile_nav_wrapper .social_icon .social-icon a {
+  background-color: #0bb90b;
+  height: 40px;
+  width: 40px;
+  border: 1px solid #0bb90b;
+  border-radius: 50px;
+  font-size: 18px;
+  color: #ffffff;
+  line-height: 35px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: 0.4s;
+}

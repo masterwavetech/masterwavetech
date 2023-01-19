@@ -1,0 +1,85 @@
+.counter__area {
+  background: url(../../../Images/banner-bg.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  width: 100%;
+  color: #fff;
+  text-align: center;
+  position: relative;
+  z-index: 1;
+}
+
+.counter__area::before {
+  background-color: #03030c;
+  height: 100%;
+  width: 100%;
+  opacity: 0.6;
+  content: "";
+  position: absolute;
+  left: 0;
+  top: 0;
+  z-index: -1;
+}
+.counter-contents {
+  position: relative;
+  z-index: 99;
+}
+
+.counter-contents h2 {
+  margin-bottom: 5px;
+  font-size: 45px;
+  font-weight: 700;
+  color: #fff;
+  word-spacing: -10px;
+}
+
+.counter__area .counter-contents h3 {
+  font-size: 18px;
+  font-weight: 700;
+  color: #fff;
+}
+
+.stacK__area {
+  width: 100%;
+  position: relative;
+  background-color: #fafbfc;
+}
+
+.stacK__area .stack__wrapper {
+  width: 180px;
+  height: 150px;
+  margin: 10px;
+  display: flex;
+  flex-direction: column;
+  overflow: hidden;
+}
+.stacK__area .stack__wrapper .stack_img {
+  width: 100%;
+  height: 100px;
+}
+.stacK__area .stack__wrapper .stack_img img {
+  width: 100%;
+  height: 100px;
+  height: 100%;
+  object-fit: contain;
+  text-align: center;
+  display: block;
+}
+
+.stacK__area .stack__wrapper h4 {
+  color: #29303b;
+  font-size: 18px;
+  font-weight: 600;
+  letter-spacing: 0.25px;
+  line-height: 26px;
+  text-align: center;
+  margin-top: 20px;
+}
+
+@media only screen and (max-width: 768px) {
+  .counter-contents {
+    margin: 25px 0;
+  }
+}

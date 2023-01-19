@@ -1,0 +1,74 @@
+.about__section,
+.about_stats {
+  width: 100%;
+  position: relative;
+  z-index: 1;
+}
+
+.about__section .about_header h1 {
+  font-size: 38px;
+  color: #0b0b31;
+  margin-bottom: 20px;
+  font-weight: 800;
+  text-transform: capitalize;
+}
+
+.about__section .about_header p {
+  font-size: 17px;
+  font-weight: 400;
+  line-height: 30px;
+}
+
+.about_stats {
+  padding: 60px;
+}
+
+.about_stats .stats_box {
+  background-color: #fafbfc;
+  text-align: center;
+  border-radius: 6px;
+  padding: 3rem;
+}
+.about_stats .stats_box i {
+  color: #7b68ee;
+  margin-bottom: 1.5rem;
+  font-weight: 800;
+  font-size: 3em;
+}
+.about_stats .stats_box h5 {
+  font-weight: 500;
+  line-height: 1.2;
+  font-size: 1.25rem;
+}
+h1 {
+  font-weight: 700;
+  line-height: 1.2;
+  font-size: 3rem;
+}
+
+.partern-box {
+  width: 100%;
+  background-color: #fafbfc;
+}
+
+.partern-box h2 {
+  margin: 0;
+  padding: 0;
+  font-weight: 300;
+  font-size: 40px;
+  line-height: 47px;
+}
+
+.partern-box .partern_box {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.partern-box .partern_box .partern-item {
+  margin: 30px;
+}
+
+.partern-box .partern_box .partern-item img {
+  max-height: 60px;
+}

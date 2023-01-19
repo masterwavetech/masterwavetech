@@ -1,0 +1,230 @@
+footer {
+  background-color: #1c1c23;
+  width: 100%;
+  position: relative;
+  z-index: 1;
+}
+
+footer .subscribe-area {
+  border-bottom: 1px solid #777;
+  padding: 50px 0;
+  line-height: 2;
+}
+
+footer .subscribe-area .subscribe-content {
+  text-align: left;
+  position: relative;
+}
+
+.subscribe-area .subscribe-content h2 {
+  margin-bottom: 15px;
+  font-size: 24px;
+  font-weight: 700;
+  color: #fff;
+  text-transform: capitalize;
+  display: block;
+}
+
+.subscribe-area .subscribe-content p {
+  font-size: 16px;
+  font-weight: 400;
+  color: #fff;
+  text-transform: capitalize;
+  display: block;
+}
+
+.subscribe-area .subscribe-form {
+  margin: 20px 0;
+  padding: 0;
+  position: relative;
+}
+
+.subscribe-area .subscribe-form input {
+  background-color: #ffffff;
+  width: 100%;
+  height: 50px;
+  border: none;
+  border-radius: 5px;
+  padding-left: 30px;
+  color: #1c1c23;
+  display: block;
+  outline: none;
+}
+
+.subscribe-area .subscribe-form .submit-btn {
+  background-color: #0bb90b;
+  height: 50px;
+  margin: 0;
+  border: none;
+  border-top-right-radius: 5px;
+  border-bottom-right-radius: 5px;
+  padding: 0 30px;
+  font-size: 16px;
+  font-weight: 400;
+  color: #ffffff;
+  text-transform: capitalize;
+  line-height: 50px;
+  position: absolute;
+  right: 0;
+  top: 0;
+  transition: 0.4s;
+  cursor: pointer;
+  outline: none;
+}
+
+footer .footer-area {
+  padding: 100px 0;
+  position: relative;
+}
+.footer-area .footer-heading {
+  position: relative;
+}
+.footer-area .footer-heading img {
+  width: 120px;
+  height: 120px;
+  object-fit: contain;
+}
+
+.footer-area .footer-heading p {
+  font-size: 15px;
+  font-weight: 400;
+  color: #ececec;
+}
+
+.footer-area .footer-heading .social-icon {
+  margin-top: 10px;
+  display: flex;
+  gap: 20px;
+}
+
+.footer-heading .social-icon a {
+  background-color: #ffffff;
+  height: 40px;
+  width: 40px;
+  border: 1px solid #ffffff;
+  border-radius: 50px;
+  font-size: 18px;
+  color: #0bb90b;
+  text-align: center;
+  line-height: 35px;
+  transition: 0.4s;
+  cursor: pointer;
+}
+
+.footer-heading .social-icon a:hover {
+  background-color: #0bb90b;
+  border: 1px solid #0bb90b;
+  color: #fff;
+}
+
+.footer-area .quick-link {
+  position: relative;
+}
+.footer-area .quick-link h3 {
+  margin: 20px 0 10px;
+  padding-bottom: 20px;
+  font-size: 20px;
+  font-weight: 700;
+  color: #ffffff;
+  text-transform: uppercase;
+  position: relative;
+}
+
+.footer-area .quick-link ul li {
+  padding-bottom: 20px;
+}
+
+.quick-link ul li a {
+  display: inline-block;
+  color: #ececec;
+  font-size: 16px;
+  font-weight: 400;
+  text-transform: capitalize;
+  position: relative;
+  padding-left: 15px;
+  cursor: pointer;
+}
+.quick-link ul li a::after {
+  position: absolute;
+  content: "";
+  width: 5px;
+  height: 5px;
+  left: 0;
+  top: 40%;
+  background-color: #0bb90b;
+  border-radius: 50%;
+  transition: all 0.2s;
+}
+.quick-link ul li a:hover {
+  color: #0bb90b;
+  text-decoration: underline;
+}
+
+.footer-area .contact-link {
+  position: relative;
+}
+.footer-area .contact-link h3 {
+  margin: 20px 0 10px;
+  padding-bottom: 20px;
+  font-size: 20px;
+  font-weight: 700;
+  color: #ffffff;
+  text-transform: uppercase;
+  position: relative;
+}
+
+.contact-link .footer-info-contact {
+  position: relative;
+  padding-left: 35px;
+  margin-bottom: 16px;
+}
+
+.contact-link .footer-info-contact i {
+  color: #ffffff;
+  position: absolute;
+  left: 0;
+  top: 0px;
+  font-size: 20px;
+}
+
+.contact-link .footer-info-contact h3 {
+  font-size: 16px;
+  color: #fff;
+  font-weight: 600;
+  margin: 0 0 10px 0;
+  padding-bottom: 0;
+  text-transform: capitalize;
+  border: none;
+}
+
+.contact-link .footer-info-contact span {
+  font-size: 15px;
+  color: #ececec;
+  font-weight: 400;
+}
+
+.footer-info-contact span a {
+  font-size: 15px;
+  color: #ececec;
+  font-weight: 400;
+  -webkit-transition: 0.4s;
+  transition: 0.4s;
+}
+
+.copyright {
+  background-color: #212129;
+  padding: 35px 0;
+}
+
+.copyright .footer__copyright {
+  color: #ececec;
+  font-size: 15px;
+  text-align: center;
+  margin-top: 20px;
+}
+
+@media only screen and (max-width: 768px) {
+  footer .footer-area {
+    padding-left: 20px;
+  }
+}
